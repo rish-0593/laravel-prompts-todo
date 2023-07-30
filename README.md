@@ -11,8 +11,20 @@
 
 ```bash
 composer install
+```
 
+For Environment Variable Create
+
+```bash
 cp env.php.example env.php
+```
+
+Create a database and update credentials in .env file
+
+```bash
+DB_DATABASE=database
+DB_USERNAME=user
+DB_PASSWORD=password
 ```
 
 Run the migration:
@@ -20,6 +32,8 @@ Run the migration:
 ```bash
 php artisan migrate
 ```
+
+## Create Notes
 
 Run the command:
 
